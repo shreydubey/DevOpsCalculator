@@ -1,0 +1,8 @@
+---
+- name: Pull docker image DevOpsCalculator
+  hosts: all
+  tasks:
+    - name: Pull docker image DevOpsCalculator
+      docker_image:
+        name: shrey15/devopscalculator
+        source: pull
