@@ -1,6 +1,4 @@
 ---
-- hosts: local
-  connection: local
 - name: Pull docker image DevOpsCalculator
   hosts: all
   tasks:
