@@ -1,8 +1,9 @@
 package ScientificCalculator;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.jupiter.api.Test;
+
+import org.junit.*;
+
+import static org.junit.Assert.*;
 
 public class DevOpsCalculatorTest {
     private DevOpsCalculator calculator;
